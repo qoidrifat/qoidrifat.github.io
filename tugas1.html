@@ -1,0 +1,633 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nama : Qoid Rif’at &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=12da95d707ffb74b382d" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tugas1';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Classification Naive Bayes" href="tugas2.html" />
+    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Nama : Qoid Rif’at</a></li>
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="tugas2.html">Classification  Naive Bayes</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ftugas1.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/tugas1.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Nama : Qoid Rif’at</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Nama : Qoid Rif’at</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#nim-210411100160">NIM : 210411100160</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#database-menggunakan-server-cloud-di-postgres">1. Database menggunakan server cloud di postgres</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#database-menggunakan-localhost-di-postgress">2. Database menggunakan localhost di postgress</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#power-bi">3. Power BI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-iris-csv-ke-phpmyadmin">4. Data iris csv ke PHPMYadmin</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="section" id="nama-qoid-rif-at">
+<h1>Nama : Qoid Rif’at<a class="headerlink" href="#nama-qoid-rif-at" title="Permalink to this heading">#</a></h1>
+</div>
+<div class="section" id="nim-210411100160">
+<h1>NIM : 210411100160<a class="headerlink" href="#nim-210411100160" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p>Daftar aplikasi yang dibutuhkan adalah sebagai berikut:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Postgresql</p></li>
+<li><p>Xammp</p></li>
+<li><p>Power Bi</p></li>
+<li><p>Membuat akun di <a class="reference external" href="http://elephantsql.com">elephantsql.com</a></p></li>
+</ol>
+<blockquote>
+<div><p>Langkah-langkah untuk mengumpulkan data dari beberapa sumber database</p>
+</div></blockquote>
+</div>
+<div class="section" id="database-menggunakan-server-cloud-di-postgres">
+<h1>1. Database menggunakan server cloud di postgres<a class="headerlink" href="#database-menggunakan-server-cloud-di-postgres" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p><strong>Langkah pertama</strong> membuat intance pada akun <a class="reference external" href="http://elephantsql.com">elephantsql.com</a> yang diberi nama pendatab yang akan digunakan untuk server cloud.</p>
+<p><img alt="pendata1" src="_images/pendata1.png" /></p>
+<p><strong>Langkah kedua</strong> Menghubungkan server dari <a class="reference external" href="http://elephantsql.com">elephantsql.com</a> ke postgress dengan cara :</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>klik kanan pada server &gt; klik menu registrasi &gt; klik server</p></li>
+</ol>
+<blockquote>
+<div><p><img alt="pendata2" src="_images/pendata2.png" /></p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>memberi nama server</p></li>
+</ol>
+<blockquote>
+<div><p><img alt="pendata3" src="_images/pendata3.png" /></p>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>mengisi bagian connection sesuai dengan server pada intance Pendata B akun <a class="reference external" href="http://elephantsql.com">elephantsql.com</a></p>
+<p>​	a. host name/address diisi dengan server</p>
+<p>​	b. maintenance database dan username diisi dengan user &amp; default database</p>
+<p>​	c. password diisi dengan password yang tertera pada detail intance elephant</p>
+<p>​	d. kemudian klik tombol save, maka server pendatab berhasil dibuat</p>
+<p><img alt="pendata4" src="_images/pendata4.png" /></p>
+</li>
+</ol>
+<blockquote>
+<div><p><strong>Langkah Ketiga</strong> membuat table data iris</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> membuka database berdasarkan nama user &amp; default database dari intance akun elepant yaitu dpoemens</p></li>
+</ul>
+<p><img alt="pendata5" src="_images/pendata5.png" /></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> klik kanan pada menu table dan pilih menu Query Tool</p>
+<p><img alt="pendata6" src="_images/pendata6.png" /></p>
+</li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> pada bagian query tuliskan query create table dari data yang ingin dimasukan</p></li>
+</ul>
+<p><img alt="pendata7" src="_images/pendata7.png" /></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> kemudian run code tersebut dan refresh pada menu table &gt; klik kanan &gt; klik refresh untuk memunculkan table iris</p>
+<p><img alt="pendata8" src="_images/pendata8.png" /></p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="database-menggunakan-localhost-di-postgress">
+<h1>2. Database menggunakan localhost di postgress<a class="headerlink" href="#database-menggunakan-localhost-di-postgress" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p><strong>Langkah pertama</strong> membuat server bernama localpendatab, kemudian untuk connectionnya di isi di isi seperti dibawah ini dengan menyertakan password dari postgres</p>
+<p><img alt="pendata10" src="_images/pendata10.png" /></p>
+<p><strong>Langkah selanjutnya</strong> membuat table data iris</p>
+</div></blockquote>
+<ol class="arabic">
+<li><p>membuat database terlebih dahulu bernama databaseiris</p>
+<p><img alt="pendata11" src="_images/pendata11.png" /></p>
+</li>
+<li><p>membuat table iris dengan cara yang sama dengen pembuatan table iris server cloud</p></li>
+<li><p>pembuatan server local postgres yang berisi table iris telah berhasil dibuat</p></li>
+</ol>
+</div>
+<div class="section" id="power-bi">
+<h1>3. Power BI<a class="headerlink" href="#power-bi" title="Permalink to this heading">#</a></h1>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Data iris yang terdapat pada database localhost</strong></p></li>
+</ul>
+<blockquote>
+<div><p><strong>Langkah pertama</strong> export table iris menjadi ﬁle csv</p>
+<p><img alt="pendata12" src="_images/pendata12.png" /></p>
+<p><strong>Langkah kedua</strong> bukalah aplikasi power bi, lalu masukan file csv tadi dengan cara klik get data kemudian klik text/csv</p>
+<p><img alt="pendata13" src="_images/pendata13.png" /></p>
+<p><strong>Langkah ketiga,</strong> jika sudah berhasil memasukan data csv maka klik load</p>
+<p><img alt="pendata14" src="_images/pendata14.png" /></p>
+<p><strong>Langkah keempat,</strong> jika sudah di load maka pada bagian kanan layar terdapat data iris yang harus di centang kemudian pilih menu bagan Clustered column chart untuk menampilkan data yang sudah di load tadi &gt; selesai</p>
+<p><img alt="pendata15" src="_images/pendata15.png" /></p>
+</div></blockquote>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Data iris yang terdapat pada database cloud postgres</strong></p></li>
+</ul>
+<blockquote>
+<div><p><strong>Langkah pertama,</strong> klik menu getdata &gt; klik more &gt; cari postgress database &gt; klik postgress database &gt; klik connect</p>
+<p><img alt="pendata16" src="_images/pendata16.png" /></p>
+<p><strong>Langkah kedua,</strong> memasukan nama server sesuai dengan yang terdapat di <a class="reference external" href="http://elephantsql.com">elephantsql.com</a> yaitu <a class="reference external" href="http://mel.db.elephantsql.com">mel.db.elephantsql.com</a> dan nama databasenya disesuaikan dengan posgress &gt; klik ok</p>
+<p><img alt="pendata17" src="_images/pendata17.png" /></p>
+<p>kemudian mengisi user name dan password yang terdapat pada akun <a class="reference external" href="http://elephantsql.com">elephantsql.com</a> &gt; klik connect</p>
+<p><img alt="pendata18" src="_images/pendata18.png" /></p>
+<p>kemudian langkah-langkah selanjutnya sama dengan cara sebelumnya &gt; setelah berhasil connect &gt; load &gt; selesai</p>
+</div></blockquote>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Data iris yang terdapat pada database MYSQL</strong></p></li>
+</ul>
+<blockquote>
+<div><p><strong>Langkah pertama,</strong> klik menu getdata &gt; klik more &gt; cari MYSQL database &gt; klik MYSQL database &gt; klik connect</p>
+<p><img alt="pendata22" src="_images/pendata22.png" /></p>
+<p>kemudian mengisi nama server dengan localhost diikuti dengan port mysql pada XAMPP dan database sesuai dengan nama database yang terdapat di phpmyadmin</p>
+<p><img alt="pendata23" src="_images/pendata23.png" /></p>
+<p>jika sudah tertampil seperti di bawah ini maka klik load</p>
+<p><img alt="pendata24" src="_images/pendata24.png" /></p>
+<p>jika sudah tertampil di power BI maka pilihlah tampilan visual nya sebagai table maka terlihat seperti di bawah ini &gt; selesai</p>
+<p><img alt="pendata25" src="_images/pendata25.png" /></p>
+</div></blockquote>
+</div>
+<div class="section" id="data-iris-csv-ke-phpmyadmin">
+<h1>4. Data iris csv ke PHPMYadmin<a class="headerlink" href="#data-iris-csv-ke-phpmyadmin" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p><strong>Langkah pertama,</strong> menyalakan apache dan sql di XAMPP</p>
+<p><img alt="pendata19" src="_images/pendata19.png" /></p>
+<p><strong>Langkah kedua</strong> membuka phpmyadmin &gt; membuat database baru bernama pendatairis</p>
+<p><strong>Langkah ketiga</strong> mengimport csv ke PHPmyadmin</p>
+<p><img alt="pendata20" src="_images/pendata20.png" /></p>
+<p>jika data tertampil seperti dibawah ini maka telah berhasil.</p>
+<p><img alt="pendata21" src="_images/pendata21.png" /></p>
+</div></blockquote>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="tugas2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Classification  Naive Bayes</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Nama : Qoid Rif’at</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#nim-210411100160">NIM : 210411100160</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#database-menggunakan-server-cloud-di-postgres">1. Database menggunakan server cloud di postgres</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#database-menggunakan-localhost-di-postgress">2. Database menggunakan localhost di postgress</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#power-bi">3. Power BI</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-iris-csv-ke-phpmyadmin">4. Data iris csv ke PHPMYadmin</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            <div class="bd-footer-content__inner">
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div></div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=12da95d707ffb74b382d"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=12da95d707ffb74b382d"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
